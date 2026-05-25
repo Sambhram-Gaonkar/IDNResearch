@@ -1,0 +1,46 @@
+[
+  {
+    "Model": "Logistic Regression",
+    "Accuracy": 0.864,
+    "Precision": 0.8507,
+    "Recall": 0.7566,
+    "F1": 0.8009,
+    "ROC AUC": 0.9213,
+    "PR AUC": 0.8898,
+    "False Positive Rate": 0.0752,
+    "False Negative Rate": 0.2434
+  },
+  {
+    "Model": "Random Forest",
+    "Accuracy": 0.9488,
+    "Precision": 0.9755,
+    "Recall": 0.8805,
+    "F1": 0.9256,
+    "ROC AUC": 0.9883,
+    "PR AUC": 0.9856,
+    "False Positive Rate": 0.0125,
+    "False Negative Rate": 0.1195
+  },
+  {
+    "Model": "XGBoost",
+    "Accuracy": 0.9536,
+    "Precision": 0.9668,
+    "Recall": 0.9027,
+    "F1": 0.9336,
+    "ROC AUC": 0.9932,
+    "PR AUC": 0.9902,
+    "False Positive Rate": 0.0175,
+    "False Negative Rate": 0.0973
+  },
+  {
+    "Model": "Hybrid RF + XGBoost + Isolation Forest",
+    "Accuracy": 0.9552,
+    "Precision": 0.976,
+    "Recall": 0.8982,
+    "F1": 0.9355,
+    "ROC AUC": 0.9919,
+    "PR AUC": 0.9901,
+    "False Positive Rate": 0.0125,
+    "False Negative Rate": 0.1018
+  }
+]
