@@ -921,9 +921,11 @@ def create_zip() -> None:
     include_paths = [
         ROOT / "HOW_TO_RUN.md",
         DOCX_PATH,
+        ROOT / "publishable_hybrid_ids_research_paper.docx",
         NOTEBOOK_PATH,
         ROOT / "requirements.txt",
         ROOT / "scripts" / "generate_research_deliverables.py",
+        ROOT / "scripts" / "create_publishable_paper.py",
         ROOT / "scripts" / "run_hybrid_ids_analysis.py",
         DATA_DIR / "sample_unsw_nb15_like.csv",
     ]
