@@ -919,6 +919,7 @@ def create_zip() -> None:
     if ZIP_PATH.exists():
         ZIP_PATH.unlink()
     include_paths = [
+        ROOT / "HOW_TO_RUN.md",
         DOCX_PATH,
         NOTEBOOK_PATH,
         ROOT / "requirements.txt",
