@@ -59,17 +59,44 @@ Use only papers published or posted between 2021 and 2026 for the research expla
     - Relevance: Recent IDS design and benchmark discussion, includes UNSW-NB15 context.
     - Source: https://researchmgt.monash.edu/ws/portalfiles/portal/583247745/582175230_oa.pdf
 
+12. Hussein, S. A., & Repas, S. R. (2026). *A Hybrid Intrusion Detection Framework Using Deep Autoencoder and Machine Learning Models*. AI, 7(2), 39.
+    - Local PDF: `references/papers/2026_hussein_repas_hybrid_intrusion_detection_autoencoder_ml.pdf`
+    - Relevance: Hybrid IDS, AE-GMM-XGBoost, AE-GMM-Logistic Regression, UNSW-NB15, ROC and PR analysis.
+    - Source: https://www.mdpi.com/2673-2688/7/2/39
+
+13. *A Rigorous Comparative Study of Supervised Machine Learning Techniques for Network Anomaly Detection: Empirical Insights from the UNSW-NB15 Dataset* (2026). Computers, 15(5), 285.
+    - Local PDF: `references/papers/2026_rigorous_comparative_supervised_ml_unsw_nb15.pdf`
+    - Relevance: UNSW-NB15, Decision Tree, Random Forest, SVM, XGBoost, binary anomaly detection metrics.
+    - Source: https://www.mdpi.com/2073-431X/15/5/285
+
+14. Ali, M., et al. (2025). *Botnet Detection in Internet of Things Using Stacked Ensemble Learning Model*. Scientific Reports.
+    - Local PDF: `references/papers/2025_botnet_detection_iot_stacked_ensemble_scientific_reports.pdf`
+    - Relevance: IoT botnet detection, stacked ensemble learning, modern IDS evaluation.
+    - Source: https://www.nature.com/articles/s41598-025-02008-9
+
+15. Li, Z., et al. (2025). *Generating Detectors from Anomaly Samples via Negative Selection for Network Intrusion Detection*. Scientific Reports.
+    - Local PDF: `references/papers/2025_negative_selection_anomaly_samples_nids_scientific_reports.pdf`
+    - Relevance: Anomaly samples, negative selection, NIDS detector generation, rare attack detection.
+    - Source: https://www.nature.com/articles/s41598-025-20516-6
+
+16. *A New Intrusion Detection Method Using Ensemble Classification and Feature Selection* (2025). Scientific Reports.
+    - Local PDF: `references/papers/2025_intrusion_detection_ensemble_classification_feature_selection_scientific_reports.pdf`
+    - Relevance: Ensemble classification, feature selection, modern intrusion detection methodology.
+    - Source: https://www.nature.com/articles/s41598-025-98604-w
+
+17. Varzaneh, Z. A., & Hosseini, S. (2024). *An Improved Equilibrium Optimization Algorithm for Feature Selection Problem in Network Intrusion Detection*. Scientific Reports, 14, 18696.
+    - Local PDF: `references/papers/2024_equilibrium_optimization_feature_selection_nids_scientific_reports.pdf`
+    - Relevance: Feature selection, optimization, NIDS performance improvement.
+    - Source: https://www.nature.com/articles/s41598-024-67488-7
+
+18. *UNSW-NB15 Computer Security Dataset: Analysis through Visualization* (2021). arXiv:2101.05067.
+    - Local PDF: `references/papers/2021_unsw_nb15_dataset_analysis_visualization.pdf`
+    - Relevance: UNSW-NB15 dataset visualization, exploratory analysis, dataset understanding.
+    - Source: https://arxiv.org/abs/2101.05067
+
 ## Additional 2021-2026 Sources to Cite by Link
 
-1. Hussein, S. A., & Repas, S. R. (2026). *A Hybrid Intrusion Detection Framework Using Deep Autoencoder and Machine Learning Models*. AI, 7(2), 39.
-   - Relevance: Hybrid IDS, AE-GMM-XGBoost, AE-GMM-Logistic Regression, UNSW-NB15, ROC and PR analysis.
-   - Source: https://www.mdpi.com/2673-2688/7/2/39
-
-2. *A Rigorous Comparative Study of Supervised Machine Learning Techniques for Network Anomaly Detection: Empirical Insights from the UNSW-NB15 Dataset* (2026). Computers, 15(5), 285.
-   - Relevance: UNSW-NB15, Decision Tree, Random Forest, SVM, XGBoost, binary anomaly detection metrics.
-   - Source: https://www.mdpi.com/2073-431X/15/5/285
-
-3. Hussain, M. Z., Iftikhar, A., Usmani, T. N., & Hasan, M. Z. (2025). *Leveraging Zero Trust Architecture for Network Intrusion Detection: A Comprehensive Evaluation Using the UNSW-NB15 Dataset*.
+1. Hussain, M. Z., Iftikhar, A., Usmani, T. N., & Hasan, M. Z. (2025). *Leveraging Zero Trust Architecture for Network Intrusion Detection: A Comprehensive Evaluation Using the UNSW-NB15 Dataset*.
    - Relevance: UNSW-NB15, Random Forest, Logistic Regression, XGBoost, AUC-ROC, Zero Trust framing.
    - Source: https://www.thesesjournal.com/index.php/1/article/view/905
 
