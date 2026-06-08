@@ -1,0 +1,281 @@
+{
+  "binary": [
+    {
+      "Model": "XGBoost",
+      "Threshold": 0.5,
+      "Accuracy": 0.9134236991692173,
+      "Precision": 0.8875116647056437,
+      "Recall": 0.9650798552898615,
+      "F1": 0.9246718660833175,
+      "ROC AUC": 0.9854079610250858,
+      "PR AUC": 0.9891952265039046,
+      "False Positives": 5545,
+      "False Negatives": 1583,
+      "False Positive Rate": 0.14986486486486486,
+      "False Negative Rate": 0.03492014471013853,
+      "Fit Time Seconds": 4.599134199961554,
+      "Predict Time Seconds": 0.32420750003075227,
+      "Milliseconds Per 1000 Records": 3.93780668550202
+    },
+    {
+      "Model": "Fusion RF + XGBoost + IF",
+      "Threshold": 0.5,
+      "Accuracy": 0.8832288782004567,
+      "Precision": 0.8341003479627344,
+      "Recall": 0.9835436336362834,
+      "F1": 0.9026785171987933,
+      "ROC AUC": 0.9835623883611839,
+      "PR AUC": 0.9872452778372435,
+      "False Positives": 8868,
+      "False Negatives": 746,
+      "False Positive Rate": 0.2396756756756757,
+      "False Negative Rate": 0.01645636636371658,
+      "Fit Time Seconds": 327.9004239999922,
+      "Predict Time Seconds": 2.8152848000172526,
+      "Milliseconds Per 1000 Records": 34.19429626411666
+    },
+    {
+      "Model": "Fusion RF + XGBoost",
+      "Threshold": 0.5,
+      "Accuracy": 0.8831802944177234,
+      "Precision": 0.83381313792201,
+      "Recall": 0.983940704138357,
+      "F1": 0.9026774330641734,
+      "ROC AUC": 0.9843786308699064,
+      "PR AUC": 0.9883568650951983,
+      "False Positives": 8890,
+      "False Negatives": 728,
+      "False Positive Rate": 0.24027027027027026,
+      "False Negative Rate": 0.01605929586164299,
+      "Fit Time Seconds": 326.2720975999837,
+      "Predict Time Seconds": 1.9438472000183538,
+      "Milliseconds Per 1000 Records": 23.609862508117786
+    },
+    {
+      "Model": "Random Forest",
+      "Threshold": 0.5,
+      "Accuracy": 0.869880483894476,
+      "Precision": 0.815159404985161,
+      "Recall": 0.9876246360187064,
+      "F1": 0.8931424866590195,
+      "ROC AUC": 0.9796433686841345,
+      "PR AUC": 0.982728343249666,
+      "False Positives": 10152,
+      "False Negatives": 561,
+      "False Positive Rate": 0.27437837837837836,
+      "False Negative Rate": 0.012375363981293568,
+      "Fit Time Seconds": 321.63912090001395,
+      "Predict Time Seconds": 1.6143700000247918,
+      "Milliseconds Per 1000 Records": 19.60805033310003
+    },
+    {
+      "Model": "Logistic Regression",
+      "Threshold": 0.5,
+      "Accuracy": 0.8357625224699995,
+      "Precision": 0.8031718196027601,
+      "Recall": 0.9294979264096003,
+      "F1": 0.8617297584718899,
+      "ROC AUC": 0.9555832953751422,
+      "PR AUC": 0.9663186103561404,
+      "False Positives": 10326,
+      "False Negatives": 3196,
+      "False Positive Rate": 0.2790810810810811,
+      "False Negative Rate": 0.07050207359039971,
+      "Fit Time Seconds": 6.529004600015469,
+      "Predict Time Seconds": 0.014080399996601045,
+      "Milliseconds Per 1000 Records": 0.17101977355828893
+    },
+    {
+      "Model": "Isolation Forest Score",
+      "Threshold": 0.5,
+      "Accuracy": 0.45207209833357626,
+      "Precision": 0.558078141499472,
+      "Recall": 0.023316862260654724,
+      "F1": 0.04476347774530979,
+      "ROC AUC": 0.360820056114528,
+      "PR AUC": 0.48644657008375464,
+      "False Positives": 837,
+      "False Negatives": 44275,
+      "False Positive Rate": 0.02262162162162162,
+      "False Negative Rate": 0.9766831377393452,
+      "Fit Time Seconds": 1.6277975999983028,
+      "Predict Time Seconds": 0.8711223999853246,
+      "Milliseconds Per 1000 Records": 10.58060535375461
+    }
+  ],
+  "threshold": [
+    {
+      "Model": "XGBoost",
+      "Threshold": 0.5,
+      "Accuracy": 0.9134236991692173,
+      "Precision": 0.8875116647056437,
+      "Recall": 0.9650798552898615,
+      "F1": 0.9246718660833175,
+      "ROC AUC": 0.9854079610250858,
+      "PR AUC": 0.9891952265039046,
+      "False Positives": 5545,
+      "False Negatives": 1583,
+      "False Positive Rate": 0.14986486486486486,
+      "False Negative Rate": 0.03492014471013853,
+      "Policy": "Default 0.50"
+    },
+    {
+      "Model": "XGBoost",
+      "Threshold": 0.33,
+      "Accuracy": 0.876597191857358,
+      "Precision": 0.8236647403099349,
+      "Recall": 0.9872275655166328,
+      "F1": 0.8980595187927678,
+      "ROC AUC": 0.9854079610250858,
+      "PR AUC": 0.9891952265039046,
+      "False Positives": 9581,
+      "False Negatives": 579,
+      "False Positive Rate": 0.25894594594594594,
+      "False Negative Rate": 0.012772434483367158,
+      "Policy": "F1-tuned"
+    },
+    {
+      "Model": "XGBoost",
+      "Threshold": 0.24000000000000002,
+      "Accuracy": 0.8430257979886314,
+      "Precision": 0.7799101744688202,
+      "Recall": 0.9959631165622518,
+      "F1": 0.8747941330336556,
+      "ROC AUC": 0.9854079610250858,
+      "PR AUC": 0.9891952265039046,
+      "False Positives": 12741,
+      "False Negatives": 183,
+      "False Positive Rate": 0.34435135135135136,
+      "False Negative Rate": 0.004036883437748169,
+      "Policy": "Recall-oriented"
+    },
+    {
+      "Model": "Fusion RF + XGBoost + IF",
+      "Threshold": 0.5,
+      "Accuracy": 0.8832288782004567,
+      "Precision": 0.8341003479627344,
+      "Recall": 0.9835436336362834,
+      "F1": 0.9026785171987933,
+      "ROC AUC": 0.9835623883611839,
+      "PR AUC": 0.9872452778372435,
+      "False Positives": 8868,
+      "False Negatives": 746,
+      "False Positive Rate": 0.2396756756756757,
+      "False Negative Rate": 0.01645636636371658,
+      "Policy": "Default 0.50"
+    },
+    {
+      "Model": "Fusion RF + XGBoost + IF",
+      "Threshold": 0.36000000000000004,
+      "Accuracy": 0.8663703055919934,
+      "Precision": 0.8094242347766522,
+      "Recall": 0.9905144268949087,
+      "F1": 0.8908596710513264,
+      "ROC AUC": 0.9835623883611839,
+      "PR AUC": 0.9872452778372435,
+      "False Positives": 10572,
+      "False Negatives": 430,
+      "False Positive Rate": 0.2857297297297297,
+      "False Negative Rate": 0.009485573105091327,
+      "Policy": "F1-tuned"
+    },
+    {
+      "Model": "Fusion RF + XGBoost + IF",
+      "Threshold": 0.22,
+      "Accuracy": 0.8451270465918477,
+      "Precision": 0.7824534026874729,
+      "Recall": 0.995499867643166,
+      "F1": 0.876212296251711,
+      "ROC AUC": 0.9835623883611839,
+      "PR AUC": 0.9872452778372435,
+      "False Positives": 12547,
+      "False Negatives": 204,
+      "False Positive Rate": 0.3391081081081081,
+      "False Negative Rate": 0.004500132356834025,
+      "Policy": "Recall-oriented"
+    }
+  ],
+  "multiclass_summary": [
+    {
+      "Model": "XGBoost multiclass",
+      "Accuracy": 0.7679759996113298,
+      "Macro F1": 0.500251380702297,
+      "Weighted F1": 0.7783720264549049,
+      "Fit Time Seconds": 39.31482270004926,
+      "Predict Time Seconds": 2.535232800000813,
+      "Milliseconds Per 1000 Records": 30.792799883408797
+    }
+  ],
+  "multiclass_detail": [
+    {
+      "Class": "Worms",
+      "Support": 44,
+      "Precision": 0.6428571428571429,
+      "Recall": 0.4090909090909091,
+      "F1": 0.5000000000000001
+    },
+    {
+      "Class": "Shellcode",
+      "Support": 378,
+      "Precision": 0.3375,
+      "Recall": 0.7857142857142857,
+      "F1": 0.47217806041335453
+    },
+    {
+      "Class": "Backdoor",
+      "Support": 583,
+      "Precision": 0.041891083183722325,
+      "Recall": 0.12006861063464837,
+      "F1": 0.06211180124223603
+    },
+    {
+      "Class": "Analysis",
+      "Support": 677,
+      "Precision": 0.03442879499217527,
+      "Recall": 0.03249630723781388,
+      "F1": 0.03343465045592705
+    },
+    {
+      "Class": "Reconnaissance",
+      "Support": 3496,
+      "Precision": 0.9247382198952879,
+      "Recall": 0.8083524027459954,
+      "F1": 0.8626373626373626
+    },
+    {
+      "Class": "DoS",
+      "Support": 4089,
+      "Precision": 0.5482695810564663,
+      "Recall": 0.07361213010516018,
+      "F1": 0.12979732643380767
+    },
+    {
+      "Class": "Fuzzers",
+      "Support": 6062,
+      "Precision": 0.31357806280406897,
+      "Recall": 0.5847904981854174,
+      "F1": 0.40824552311855816
+    },
+    {
+      "Class": "Exploits",
+      "Support": 11132,
+      "Precision": 0.5813099609143669,
+      "Recall": 0.8817822493711822,
+      "F1": 0.7006924120208438
+    },
+    {
+      "Class": "Generic",
+      "Support": 18871,
+      "Precision": 0.9980907702378354,
+      "Recall": 0.9695829579778497,
+      "F1": 0.9836303523909363
+    },
+    {
+      "Class": "Normal",
+      "Support": 37000,
+      "Precision": 0.9672600565790381,
+      "Recall": 0.7577567567567568,
+      "F1": 0.8497863183099446
+    }
+  ]
+}
